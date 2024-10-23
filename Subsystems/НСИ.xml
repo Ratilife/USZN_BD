@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Subsystem uuid="cd31ad22-0241-4a64-bc83-e8bff004b07d">
+		<Properties>
+			<Name>НСИ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>НСИ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕденицыИзмерения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДокументыПоВидам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОрганизацииВыдающиеДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Страна</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Родство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОтделыОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Область_Край</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Улицы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НаселенныеПункты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КатегорииЛиц</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузитьДанныеНаУголь</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчетнаяПолитика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СписокНаКомиссию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.ДокументыСФизическимиЛицами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИнформационнаяПанель</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>Справочники</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

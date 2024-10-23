@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Загрузить" id="49">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Загрузить</CommandName>
+				<ExtendedTooltip name="ЗагрузитьРасширеннаяПодсказка" id="50"/>
+			</Button>
+			<Button name="ФормаСоздатьДокумент" id="70">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СоздатьДокумент</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьДокументРасширеннаяПодсказка" id="71"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="78">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="79"/>
+			<ChildItems>
+				<InputField name="ПутьКФайлу" id="46">
+					<DataPath>Объект.ПутьКФайлу</DataPath>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="48"/>
+					<Events>
+						<Event name="StartChoice">ПутьКФайлуНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="ДатаДок" id="75">
+					<DataPath>Объект.ДатаДок</DataPath>
+					<ContextMenu name="ДатаДокКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="ДатаДокРасширеннаяПодсказка" id="77"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="44">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<InputField name="Организация" id="1">
+					<DataPath>Объект.Организация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Сотрудник" id="4">
+					<DataPath>Объект.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СотрудникКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="62">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="63"/>
+			<ChildItems>
+				<InputField name="ВидЛьготы" id="59">
+					<DataPath>Объект.ВидЛьготы</DataPath>
+					<ContextMenu name="ВидЛьготыКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ВидЛьготыРасширеннаяПодсказка" id="61"/>
+				</InputField>
+				<InputField name="ПредметЛьготы" id="64">
+					<DataPath>Объект.ПредметЛьготы</DataPath>
+					<ContextMenu name="ПредметЛьготыКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ПредметЛьготыРасширеннаяПодсказка" id="66"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="51">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<InputField name="Начать" id="53">
+					<DataPath>Начать</DataPath>
+					<ContextMenu name="НачатьКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="НачатьРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="Закончить" id="56">
+					<DataPath>Закончить</DataPath>
+					<ContextMenu name="ЗакончитьКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ЗакончитьРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="СельскийСовет" id="72">
+					<DataPath>Объект.СельскийСовет</DataPath>
+					<ContextMenu name="СельскийСоветКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="СельскийСоветРасширеннаяПодсказка" id="74"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДанныеНаУголь" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ДанныеНаУголь</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес (3)</v8:content>
+				</v8:item>
+			</Title>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДанныеНаУгольКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ДанныеНаУгольКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ДанныеНаУгольРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ДанныеНаУгольСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ДанныеНаУголь</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеНаУгольСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ДанныеНаУгольСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДанныеНаУгольСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ДанныеНаУголь</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеНаУгольСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ДанныеНаУгольСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДанныеНаУгольУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ДанныеНаУголь</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеНаУгольУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ДанныеНаУгольУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДанныеНаУгольНомерСтроки" id="20">
+					<DataPath>Объект.ДанныеНаУголь.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ДанныеНаУгольНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ДанныеНаУгольФИО" id="67">
+					<DataPath>Объект.ДанныеНаУголь.ФИО</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО (2)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольФИОКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ДанныеНаУгольФИОРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="ДанныеНаУгольАдрес" id="26">
+					<DataPath>Объект.ДанныеНаУголь.Адрес</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес (3)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольАдресКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДанныеНаУгольАдресРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ДанныеНаУгольКатегория" id="29">
+					<DataPath>Объект.ДанныеНаУголь.Категория</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категория (4)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольКатегорияКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ДанныеНаУгольКатегорияРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ДанныеНаУгольДатаРождения" id="32">
+					<DataPath>Объект.ДанныеНаУголь.ДатаРождения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата рождения (5)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольДатаРожденияКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДанныеНаУгольДатаРожденияРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ДанныеНаУгольПаспортныеДанные" id="35">
+					<DataPath>Объект.ДанныеНаУголь.ПаспортныеДанные</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Паспорт (6)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольПаспортныеДанныеКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ДанныеНаУгольПаспортныеДанныеРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ДанныеНаУгольИНН" id="38">
+					<DataPath>Объект.ДанныеНаУголь.ИНН</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН (7)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеНаУгольИННКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ДанныеНаУгольИННРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗагрузитьДанныеНаУголь</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Начать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начать</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Закончить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закончить</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Загрузить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Загрузить</Action>
+		</Command>
+		<Command name="СоздатьДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьДокумент</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="88c81621-c32a-419e-bc3c-cb629481b30d">
+		<Name>Акимовка</Name>
+		<Code>000000003</Code>
+		<Description>Акимовка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="76a658e1-bc2c-460b-b4eb-4e86bcc70b3e">
+		<Name>Владимировский</Name>
+		<Code>000000004</Code>
+		<Description>Владимировский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce4c4028-bd6a-4799-9fb6-54068eac31e3">
+		<Name>Горьковский</Name>
+		<Code>000000010</Code>
+		<Description>Горьковский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0646710-15e9-4855-a838-c9a00920afa1">
+		<Name>Давыдовский</Name>
+		<Code>000000005</Code>
+		<Description>Давыдовский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="89a0909a-3ed9-4555-80e5-fe155041c642">
+		<Name>Кирилловский</Name>
+		<Code>000000001</Code>
+		<Description>Кирилловский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5582d2ef-875a-4ec4-b5d3-31b7a70b944e">
+		<Name>Новоданиловский</Name>
+		<Code>000000006</Code>
+		<Description>Новоданиловский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="870cd74d-d259-4e8c-95a0-649066629d4d">
+		<Name>Переможненский</Name>
+		<Code>000000002</Code>
+		<Description>Переможненский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9cf4b38a-9993-468e-a30c-31e855b96bf3">
+		<Name>Радивоновский</Name>
+		<Code>000000011</Code>
+		<Description>Радивоновский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="41443aef-67f1-4d62-81e7-0b80ea950da5">
+		<Name>Розовский</Name>
+		<Code>000000008</Code>
+		<Description>Розовский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5a4556af-ead8-488b-9ad0-5f1c3c9b0d49">
+		<Name>Таврийский</Name>
+		<Code>000000007</Code>
+		<Description>Таврийский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c6dff9e6-3485-475f-a1b5-1208dd61d958">
+		<Name>Чорноземненский</Name>
+		<Code>000000009</Code>
+		<Description>Чорноземненский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="af17a159-b243-41eb-88f8-1d1233d3e2c9">
+		<Name>Шелюговский</Name>
+		<Code>000000012</Code>
+		<Description>Шелюговский</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

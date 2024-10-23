@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="f1f01e38-ec20-4773-b4bf-326daaee025a">
+		<Name>бабушка</Name>
+		<Code>000000007</Code>
+		<Description>бабушка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b83d1b56-febb-4e4e-ab39-76c6545f6de4">
+		<Name>брат</Name>
+		<Code>000000003</Code>
+		<Description>брат</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="50be7035-5d72-42f9-bdb5-2a82ef27d0c9">
+		<Name>дедушка</Name>
+		<Code>000000008</Code>
+		<Description>дедушка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d5e51612-780f-4bd4-8c89-748f3be8c2f3">
+		<Name>дочь</Name>
+		<Code>000000009</Code>
+		<Description>дочь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9df2fe68-5260-4530-81ad-c33548964553">
+		<Name>дядя</Name>
+		<Code>000000006</Code>
+		<Description>дядя</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="96a565cd-1901-4914-89c9-350ac87e4520">
+		<Name>мать</Name>
+		<Code>000000001</Code>
+		<Description>мать</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9da6e351-0697-4d08-90d1-c7e49b7f039a">
+		<Name>отец</Name>
+		<Code>000000002</Code>
+		<Description>отец</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de5a10ca-9b04-4718-9c38-4baf8f0ff1dd">
+		<Name>сестра</Name>
+		<Code>000000004</Code>
+		<Description>сестра</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="faf8e4c8-b93e-451f-be54-81f5b35a3a96">
+		<Name>супруг</Name>
+		<Code>000000011</Code>
+		<Description>супруг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f0f2ddf2-28e6-43c2-a7d2-88fe98a984a9">
+		<Name>супруга</Name>
+		<Code>000000012</Code>
+		<Description>Супруга</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4d07eae1-1c6a-4d67-abec-a4e7f93bd19d">
+		<Name>сын</Name>
+		<Code>000000010</Code>
+		<Description>сын</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cec68a6a-36bb-431b-9b92-09152eb1039c">
+		<Name>тетя</Name>
+		<Code>000000005</Code>
+		<Description>тетя</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

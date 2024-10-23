@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаПериодОрганизация" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период организация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период организация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПериодОрганизацияРасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<InputField name="Период" id="15">
+					<DataPath>Запись.Period</DataPath>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="17"/>
+				</InputField>
+				<InputField name="Организация" id="1">
+					<DataPath>Запись.Организация</DataPath>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЛьготы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для подписи на льготы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа льготы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаЛьготыРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="ФИОЛьготыДляПодписи1" id="4">
+					<DataPath>Запись.ФИОЛьготыДляПодписи1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ФИОЛьготыДляПодписи1КонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ФИОЛьготыДляПодписи1РасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ФИОЛьготыДляПодписи2" id="7">
+					<DataPath>Запись.ФИОЛьготыДляПодписи2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ФИОЛьготыДляПодписи2КонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ФИОЛьготыДляПодписи2РасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="ФИОЛьготыДляПодписи3" id="10">
+					<DataPath>Запись.ФИОЛьготыДляПодписи3</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ФИОЛьготыДляПодписи3КонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ФИОЛьготыДляПодписи3РасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЛьготыОтказ" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для подписи на льготы отказ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа льготы отказ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаЛьготыОтказРасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<InputField name="ФИОЛьготыДляПодписиОтказ1" id="22">
+					<DataPath>Запись.ФИОЛьготыДляПодписиОтказ1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ФИОЛьготыДляПодписиОтказ1КонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ФИОЛьготыДляПодписиОтказ1РасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="ФИОЛьготыДляПодписиОтказ2" id="25">
+					<DataPath>Запись.ФИОЛьготыДляПодписиОтказ2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ФИОЛьготыДляПодписиОтказ2КонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ФИОЛьготыДляПодписиОтказ2РасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомиссия" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комиссия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа комиссия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаКомиссияРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<InputField name="ФИОСекретарьКомиссии" id="30">
+					<DataPath>Запись.ФИОСекретарьКомиссии</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Секретарь комиссии</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ФИОСекретарьКомиссииКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ФИОСекретарьКомиссииРасширеннаяПодсказка" id="32"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="НачальникУправления" id="33">
+			<DataPath>Запись.НачальникУправления</DataPath>
+			<ContextMenu name="НачальникУправленияКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="НачальникУправленияРасширеннаяПодсказка" id="35"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.УчетнаяПолитика</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаКодНаименование" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код наименование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код наименование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодНаименованиеРасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<LabelField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ТекстДляШапкиРешения" id="67">
+			<DataPath>Объект.ТекстДляШапкиРешенияУтвердить</DataPath>
+			<ContextMenu name="ТекстДляШапкиРешенияКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="ТекстДляШапкиРешенияРасширеннаяПодсказка" id="69"/>
+		</InputField>
+		<InputField name="ТекстДляШапкиРешенияОтказать" id="70">
+			<DataPath>Объект.ТекстДляШапкиРешенияОтказать</DataPath>
+			<ContextMenu name="ТекстДляШапкиРешенияОтказатьКонтекстноеМеню" id="71"/>
+			<ExtendedTooltip name="ТекстДляШапкиРешенияОтказатьРасширеннаяПодсказка" id="72"/>
+		</InputField>
+		<UsualGroup name="ГруппаПериодДействия" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период действия льготы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период действия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="ГруппаПериодДействияРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<InputField name="ДатаНачала" id="58">
+					<DataPath>Объект.ДатаНачала</DataPath>
+					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="60"/>
+				</InputField>
+				<InputField name="ДатаОкончания" id="61">
+					<DataPath>Объект.ДатаОкончания</DataPath>
+					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="63"/>
+				</InputField>
+				<CheckBoxField name="НумерацияЗаявленийСначалаВНовомГоду" id="64">
+					<DataPath>Объект.НумерацияЗаявленийСначалаВНовомГоду</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НумерацияЗаявленийСначалаВНовомГодуКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="НумерацияЗаявленийСначалаВНовомГодуРасширеннаяПодсказка" id="66"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Page name="ГруппаЛьготныеКатегории" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Льготные категории</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаЛьготныеКатегорииРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<Table name="ЛьготныеКатегории" id="11">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ЛьготныеКатегории</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЛьготныеКатегорииКонтекстноеМеню" id="12"/>
+							<AutoCommandBar name="ЛьготныеКатегорииКоманднаяПанель" id="13"/>
+							<ExtendedTooltip name="ЛьготныеКатегорииРасширеннаяПодсказка" id="14"/>
+							<SearchStringAddition name="ЛьготныеКатегорииСтрокаПоиска" id="15">
+								<AdditionSource>
+									<Item>ЛьготныеКатегории</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЛьготныеКатегорииСтрокаПоискаКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="ЛьготныеКатегорииСтрокаПоискаРасширеннаяПодсказка" id="17"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЛьготныеКатегорииСостояниеПросмотра" id="18">
+								<AdditionSource>
+									<Item>ЛьготныеКатегории</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЛьготныеКатегорииСостояниеПросмотраКонтекстноеМеню" id="19"/>
+								<ExtendedTooltip name="ЛьготныеКатегорииСостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЛьготныеКатегорииУправлениеПоиском" id="21">
+								<AdditionSource>
+									<Item>ЛьготныеКатегории</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЛьготныеКатегорииУправлениеПоискомКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="ЛьготныеКатегорииУправлениеПоискомРасширеннаяПодсказка" id="23"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ЛьготныеКатегорииНомерСтроки" id="24">
+									<DataPath>Объект.ЛьготныеКатегории.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЛьготныеКатегорииНомерСтрокиКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="ЛьготныеКатегорииНомерСтрокиРасширеннаяПодсказка" id="26"/>
+								</LabelField>
+								<InputField name="ЛьготныеКатегорииНаименование" id="27">
+									<DataPath>Объект.ЛьготныеКатегории.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЛьготныеКатегорииНаименованиеКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="ЛьготныеКатегорииНаименованиеРасширеннаяПодсказка" id="29"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДокументыДляЛьготы" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документы для льготы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаДокументыДляЛьготыРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<Table name="ДокументыДляЛьготы" id="32">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ДокументыДляЛьготы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДокументыДляЛьготыКонтекстноеМеню" id="33"/>
+							<AutoCommandBar name="ДокументыДляЛьготыКоманднаяПанель" id="34"/>
+							<ExtendedTooltip name="ДокументыДляЛьготыРасширеннаяПодсказка" id="35"/>
+							<SearchStringAddition name="ДокументыДляЛьготыСтрокаПоиска" id="36">
+								<AdditionSource>
+									<Item>ДокументыДляЛьготы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДокументыДляЛьготыСтрокаПоискаКонтекстноеМеню" id="37"/>
+								<ExtendedTooltip name="ДокументыДляЛьготыСтрокаПоискаРасширеннаяПодсказка" id="38"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДокументыДляЛьготыСостояниеПросмотра" id="39">
+								<AdditionSource>
+									<Item>ДокументыДляЛьготы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДокументыДляЛьготыСостояниеПросмотраКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="ДокументыДляЛьготыСостояниеПросмотраРасширеннаяПодсказка" id="41"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДокументыДляЛьготыУправлениеПоиском" id="42">
+								<AdditionSource>
+									<Item>ДокументыДляЛьготы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДокументыДляЛьготыУправлениеПоискомКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="ДокументыДляЛьготыУправлениеПоискомРасширеннаяПодсказка" id="44"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="ChoiceProcessing">ДокументыДляЛьготыОбработкаВыбора</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ДокументыДляЛьготыНомерСтроки" id="45">
+									<DataPath>Объект.ДокументыДляЛьготы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДокументыДляЛьготыНомерСтрокиКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ДокументыДляЛьготыНомерСтрокиРасширеннаяПодсказка" id="47"/>
+								</LabelField>
+								<InputField name="ДокументыДляЛьготыНаименование" id="48">
+									<DataPath>Объект.ДокументыДляЛьготы.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДокументыДляЛьготыНаименованиеКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ДокументыДляЛьготыНаименованиеРасширеннаяПодсказка" id="50"/>
+								</InputField>
+								<InputField name="ДокументыДляЛьготыЛьготныеКатегории" id="53">
+									<DataPath>Объект.ДокументыДляЛьготы.ЛьготныеКатегории</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceButton>true</ChoiceButton>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ContextMenu name="ДокументыДляЛьготыЛьготныеКатегорииКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ДокументыДляЛьготыЛьготныеКатегорииРасширеннаяПодсказка" id="55"/>
+									<Events>
+										<Event name="StartChoice">ДокументыДляЛьготыЛьготныеКатегорииНачалоВыбора</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ВидыЛьгот</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

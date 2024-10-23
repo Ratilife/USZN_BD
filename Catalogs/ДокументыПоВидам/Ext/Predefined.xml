@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="b0295bd7-db3a-49d3-9445-28f9e08b76a1">
+		<Name>паспорт</Name>
+		<Code>000001</Code>
+		<Description>Паспорт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="076bc55c-62b9-41fd-bf74-6a7dcb9a93be">
+		<Name>свидетельствоОРождении</Name>
+		<Code>000002</Code>
+		<Description>Свидетельство о рождении</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="22615a0b-50fa-4618-9e7d-58321e3c19d7">
+		<Name>СвидетельствоОСмерти</Name>
+		<Code>000003</Code>
+		<Description>Свидетельство о смерти</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="93dfb359-c851-4c61-b71b-848b917db53b">
+		<Name>СправкаМногодетнойСемьи</Name>
+		<Code>000000</Code>
+		<Description>Справка многодетной семьи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9a428303-ad68-47f3-926a-651ed8af3fbe">
+		<Name>СправкаМСЭК</Name>
+		<Code>000006</Code>
+		<Description>Справка МСЭК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95750f37-9412-470f-83ed-87bb79e58c2a">
+		<Name>УдостоверениеМногодетнойМатери</Name>
+		<Code>000005</Code>
+		<Description>Удостоверение многодетной семьи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="366fa49c-2b8f-48bc-97cc-d112b633664d">
+		<Name>УдостоверениеЧернобыльца</Name>
+		<Code>000004</Code>
+		<Description>Удостоверение чернобыльца</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

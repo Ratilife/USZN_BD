@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Subsystem uuid="909315f0-d0c2-4e95-894d-696c947516a9">
+		<Properties>
+			<Name>РегистрыУчета</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистры учета</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛичноеДелоЛьготы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛичноеДелоВАрхив</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыплатыПредоставленныеДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛьготыПредоставленныеДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛичноеДелоЗакрыть</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛичноеДелоВыплата</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КоличествоЛьготПоКатегориям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПолученныеТалоны</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.МногодетныеСемьиУчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПланВыдачиТалонов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаРегистров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КоличествоЛьготОтказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КоличествоЛьготПоКатегориямЗаявления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КоличествоЛьготВыдано</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КоличествоЛьготПоКатегориямКомиссия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПолученоПредметЛьгот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНаСкладах</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>РегистрыСведений</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>
